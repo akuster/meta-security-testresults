@@ -1,0 +1,37 @@
+June 22, 2022
+==============================================================================================================
+Test Result Status Summary (Counts/Percentages sorted by testseries, ID)
+==============================================================================================================
+--------------------------------------------------------------------------------------------------------------
+Test Series | ID                                                    | Passed   | Failed   | Skipped
+--------------------------------------------------------------------------------------------------------------
+oeqa | runtime_security-build-image_qemuarm64_20220623042446 | 42 (69%) | 14 (23%) | 5 (8%)
+--------------------------------------------------------------------------------------------------------------
+Total | 1                                                     | 42       | 14       | 5     
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+==============================================================================================================
+Failed test cases (sorted by testseries, ID)
+==============================================================================================================
+--------------------------------------------------------------------------------------------------------------
+testseries | result_id : oeqa | runtime_security-build-image_qemuarm64_20220623042446
+    ima.IMACheck.test_ima_hash
+    smack.SmackBasicTest.test_load_smack_rule
+    smack.SmackBasicTest.test_privileged_change_self_label
+    smack.SmackBasicTest.test_smack_cipso
+    smack.SmackBasicTest.test_smack_enforce_file_access
+    smack.SmackBasicTest.test_smack_labels
+    smack.SmackBasicTest.test_smack_netlabel
+    smack.SmackBasicTest.test_smack_onlycap
+    smack.SmackBasicTest.test_smack_tcp_sockets
+    smack.SmackBasicTest.test_smack_transmute_dir
+    smack.SmackBasicTest.test_smack_udp_sockets
+    smack.SmackBasicTest.test_smackcipso
+    smack.SmackBasicTest.test_smackload
+    smack.SmackBasicTest.test_unprivileged_change_self_label
+--------------------------------------------------------------------------------------------------------------
+
