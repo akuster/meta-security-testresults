@@ -1,13 +1,12 @@
-June 22, 2022
 ==============================================================================================================
 Test Result Status Summary (Counts/Percentages sorted by testseries, ID)
 ==============================================================================================================
 --------------------------------------------------------------------------------------------------------------
 Test Series | ID                                                    | Passed   | Failed   | Skipped
 --------------------------------------------------------------------------------------------------------------
-oeqa | runtime_security-build-image_qemuarm64_20220623042446 | 42 (69%) | 14 (23%) | 5 (8%)
+oeqa | runtime_security-build-image_qemuarm64_20220731214553 | 39 (64%) | 15 (25%) | 7 (11%)
 --------------------------------------------------------------------------------------------------------------
-Total | 1                                                     | 42       | 14       | 5     
+Total | 1                                                     | 39       | 15       | 7      
 --------------------------------------------------------------------------------------------------------------
 
 
@@ -18,8 +17,9 @@ Total | 1                                                     | 42       | 14   
 Failed test cases (sorted by testseries, ID)
 ==============================================================================================================
 --------------------------------------------------------------------------------------------------------------
-testseries | result_id : oeqa | runtime_security-build-image_qemuarm64_20220623042446
+testseries | result_id : oeqa | runtime_security-build-image_qemuarm64_20220731214553
     ima.IMACheck.test_ima_hash
+    parsec.ParsecTest.test_all_providers
     smack.SmackBasicTest.test_load_smack_rule
     smack.SmackBasicTest.test_privileged_change_self_label
     smack.SmackBasicTest.test_smack_cipso
